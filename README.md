@@ -1,37 +1,27 @@
-# INVO Academy JS Starter with Vite
+# Projects Repository
 
-In order to see this file in preview mode in VS Code, press ```Ctrl + Shift + V```
+Hello World!
 
-## Recommended IDE Setup
+## What is the goal?
 
-- [VS Code](https://code.visualstudio.com/)
+The purpose of this repo is to present my latest projects that I've created for work, study and just for fun.
 
-## How to start your challenge
+## Where are the source files?
 
-This is a Universal Starter for all the Basic INVO Academy Challenges. In order to start your challenge, remove all the content inside ```<div id="home-page"></div>``` and start coding :) 
+On my disk.
 
-The main file structure is prepered, please make yourslef familiar with it. Your goal is to explore it and extend on your own while development. Feel free to remove all the extra files and code that you don't need.
+## What projects are published here?
 
-## How to run your project
+- Exercises made for students.
+- Some work stuff.
+- INVO Academy Challenges.
+- The rest of which I am proud.
 
-If you run your this project for the first time, you need to install npm dependencies by typing
+## How to see the project?
 
-```npm install``` (this is for the one-time installation only)
+Projects are held in subdirectories listed below.
 
-In order to run your project in a development mode type
+## Table of contents
 
-```npm run dev```
-
-then open your browser and go to the url showed in the terminal. That's it, if you make any changes in the code, browser will synchronize automatically.
-
-## Building your project
-
-When you are ready to put your project on the Internet, you need to build it. For building, type
-
-```npm run build```
-
-This commend will create a dist folder. This is the folder containing your whole application and that's the only folder that you need to deploy to the server in order to make your app publically available.
-
-## More informations about folder structure and deploying your application you can find inside INVO Academy Knowledge Base
-
-
+- [AI Sections](https://vnowacki.github.io/aisections)
+- [Order Summary](https://vnowacki.github.io/ordersummary)
