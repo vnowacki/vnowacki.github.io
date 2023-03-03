@@ -25,3 +25,4 @@ Projects are held in subdirectories listed below.
 
 - [AI Sections](https://vnowacki.github.io/aisections)
 - [Order Summary](https://vnowacki.github.io/ordersummary)
+- [NFT Card](https://vnowacki.github.io/nftcard)
