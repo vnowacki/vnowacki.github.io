@@ -27,3 +27,4 @@ Projects are held in subdirectories listed below.
 - [Order Summary](https://vnowacki.github.io/ordersummary)
 - [NFT Card](https://vnowacki.github.io/nftcard)
 - [Blog Card](https://vnowacki.github.io/blogcard)
+- [Pricing Plans](https://vnowacki.github.io/pricingplans)
