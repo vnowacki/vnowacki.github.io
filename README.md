@@ -28,3 +28,4 @@ Projects are held in subdirectories listed below.
 - [NFT Card](https://vnowacki.github.io/nftcard)
 - [Blog Card](https://vnowacki.github.io/blogcard)
 - [Pricing Plans](https://vnowacki.github.io/pricingplans)
+- [Three Advantages](https://vnowacki.github.io/threeadvantages)
