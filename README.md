@@ -29,3 +29,4 @@ Projects are held in subdirectories listed below.
 - [Blog Card](https://vnowacki.github.io/blogcard)
 - [Pricing Plans](https://vnowacki.github.io/pricingplans)
 - [Three Advantages](https://vnowacki.github.io/threeadvantages)
+- [Simple Product Card](https://vnowacki.github.io/simpleproductcard)
