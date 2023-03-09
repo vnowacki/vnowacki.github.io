@@ -1,0 +1,46 @@
+[
+    {
+        "productId" : "1",
+        "productName" : "Skórzany portfel z logo",
+        "productDescription" : "Różowy portfel Gucci. Wykonany ze skóry o ziarnistej fakturze. Zamykany na zatrzask. Z przodu ozdobiony aplikacją w kształcie logo. Wewnątrz przegroda na banknoty, kieszeń na monety zamykana na zamek, dwie wsuwane i cztery miejsca na karty.",
+        "productColor" : "#F8D7D7",
+        "productColorName" : "różowy",
+        "productColorNameVariant" : "różowym",
+        "productPhoto" : "wallet-1.png",
+        "productNewPrice" : "1749,00",
+        "productOldPrice" : "1849,00"
+    },
+    {
+        "productId" : "2",
+        "productName" : "Skórzany portfel z logo",
+        "productDescription" : "Łososiowy portfel Gucci. Wykonany ze skóry o ziarnistej fakturze. Zamykany na zatrzask. Z przodu ozdobiony aplikacją w kształcie logo. Wewnątrz przegroda na banknoty, kieszeń na monety zamykana na zamek, dwie wsuwane i cztery miejsca na karty.",
+        "productColor" : "#F8E0D7",
+        "productColorName" : "łososiowy",
+        "productColorNameVariant" : "łososiowym",
+        "productPhoto" : "wallet-2.png",
+        "productNewPrice" : "1759,00",
+        "productOldPrice" : "1859,00"
+    },
+    {
+        "productId" : "3",
+        "productName" : "Skórzany portfel z logo",
+        "productDescription" : "Żółty portfel Gucci. Wykonany ze skóry o ziarnistej fakturze. Zamykany na zatrzask. Z przodu ozdobiony aplikacją w kształcie logo. Wewnątrz przegroda na banknoty, kieszeń na monety zamykana na zamek, dwie wsuwane i cztery miejsca na karty.",
+        "productColor" : "#F8EFD7",
+        "productColorName" : "żółty",
+        "productColorNameVariant" : "żółtym",
+        "productPhoto" : "wallet-3.png",
+        "productNewPrice" : "1739,00",
+        "productOldPrice" : "1839,00"
+    },
+    {
+        "productId" : "4",
+        "productName" : "Skórzany portfel z logo",
+        "productDescription" : "Szary portfel Gucci. Wykonany ze skóry o ziarnistej fakturze. Zamykany na zatrzask. Z przodu ozdobiony aplikacją w kształcie logo. Wewnątrz przegroda na banknoty, kieszeń na monety zamykana na zamek, dwie wsuwane i cztery miejsca na karty.",
+        "productColor" : "#ECECEC",
+        "productColorName" : "szary",
+        "productColorNameVariant" : "szarym",
+        "productPhoto" : "wallet-4.png",
+        "productNewPrice" : "1729,00",
+        "productOldPrice" : "1829,00"
+    }
+]
