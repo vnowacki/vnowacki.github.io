@@ -1,0 +1,16 @@
+[
+    {
+        "productId" : "14d158fe-6388-4b23-afac-10a13e5311cc",
+        "productName" : "Nike Dunk Low Retro",
+        "productDescription" : "Man's shoes",
+        "productSize" : "10",
+        "productPrice" : "100"
+    },
+    {
+        "productId" : "ee091d53-7113-4ab6-90ec-15281af568e0",
+        "productName" : "Nike Sportswear Therma-FIT City Series",
+        "productDescription" : "Woman jacket",
+        "productSize" : "L",
+        "productPrice" : "170"
+    }
+]
