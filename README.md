@@ -32,3 +32,4 @@ Projects are held in subdirectories listed below.
 - [Simple Product Card](https://vnowacki.github.io/simpleproductcard)
 - [Product Rate Modal](https://vnowacki.github.io/productratemodal)
 - [Pay Form](https://vnowacki.github.io/payform)
+- [Nike Order Summary](https://vnowacki.github.io/nikeordersummary)
