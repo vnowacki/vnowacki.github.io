@@ -5,6 +5,7 @@ Hello World!
 ## The goal
 
 The purpose of this repo is to present my latest projects that I've created for work, study and just for fun.
+Some of them are approved by INVO Academy [here](https://platform.invo.academy/portfolio/WregKZWu78NsH6qOM55v76314yW2)
 
 ## Projects in the repository
 
