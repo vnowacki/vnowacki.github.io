@@ -17,10 +17,6 @@ On my disk.
 - INVO Academy Challenges.
 - The rest of which I am proud.
 
-## How to see the project?
-
-Projects are held in subdirectories listed below.
-
 ## Table of contents
 
 - [School Page](https://zstib.edu.pl) - HTML, CSS, JQuery, Bootstrap, PHP, SQL
