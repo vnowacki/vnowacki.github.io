@@ -36,4 +36,5 @@ Projects are held in subdirectories listed below.
 - [Pay Form](https://vnowacki.github.io/payform) - HTML, SCSS, Vanilla JS
 - [Nike Order Summary](https://vnowacki.github.io/nikeordersummary) - HTML, SCSS, Vanilla JS, JSON
 - [Calendar App](https://vnowacki.github.io/calendarApp) - HTML, CSS, Vanilla JS
+- [Dino Game](https://vnowacki.github.io/dinoGame) - HTML, CSS, Vanilla JS
 
