@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: linen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.board {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cell:nth-child(1),
+.cell:nth-child(2),
+.cell:nth-child(3) {
+    border-top: none;
+}
+.cell:nth-child(3n + 1) {
+    border-left: none;
+}
+.cell:nth-child(3n + 3) {
+    border-right: none;
+}
+.cell:nth-child(7),
+.cell:nth-child(8),
+.cell:nth-child(9) {
+    border-bottom: none;
+}
+
+.cell.x::before,
+.cell.x::after {
+    content: '';
+    width: 20px;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+}
+.cell.x::before {
+    transform: rotate(45deg);
+}
+.cell.x::after {
+    transform: rotate(-45deg);
+}
+
+.cell.o::before {
+    content: '';
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+.cell.o::after {
+    content: '';
+    width: 60%;
+    height: 60%;
+    background-color: linen;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.gameOver {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    color: linen;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.7);
+    visibility: hidden;
+}
+.gameOver.show {
+    visibility: visible;
+}
