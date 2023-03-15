@@ -24,6 +24,7 @@ Projects are held in subdirectories listed below.
 ## Table of contents
 
 - [School Page](https://zstib.edu.pl) - HTML, CSS, JQuery, Bootstrap, PHP, SQL
+- [E-Learning Platform](https://zstib.edu.pl/elearning) - HTML, CSS, JQuery, Bootstrap, PHP, SQL
 - [AI Sections](https://vnowacki.github.io/aisections) - HTML, SCSS
 - [Order Summary](https://vnowacki.github.io/ordersummary) - HTML, SCSS
 - [NFT Card](https://vnowacki.github.io/nftcard) - HTML, SCSS
