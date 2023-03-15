@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+::selection {
+    background: transparent;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+    height: 100vh;
+    gap: 40px;
+}
+
+.flappyBird {
+    --bgColor: deepskyblue;
+
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: var(--bgColor);
+    overflow: hidden;
+    position: relative;
+}
+
+.flappyBird--wall {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(100% + 10px);
+    z-index: 1;
+}
+
+.flappyBird--wall--top,
+.flappyBird--wall--bottom {
+    background-color: darkslategray;
+    width: 50px;
+    position: absolute;
+    left: 0;
+}
+.flappyBird--wall--top {
+    height: 30%;
+    top: 0;
+}
+.flappyBird--wall--bottom {
+    height: 40%;
+    bottom: 0;
+}
+.flappyBird--wall--top::after,
+.flappyBird--wall--bottom::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    left: -5px;
+    height: 10px;
+    border-radius: 10px;
+    background-color:seagreen;
+}
+.flappyBird--wall--top::after {
+    bottom: 0;
+}
+.flappyBird--wall--bottom::after {
+    top: 0;
+}
+
+.flappyBird--bird {
+    background-color:darkred;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 8px;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.flappyBird--bird::after {
+    content: '';
+    width: 8px;
+    height: 10px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    clip-path: polygon(0px 0px, 8px 8px, 0px 10px);
+    background-color: darkorange;
+}
+.flappyBird--bird::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -8px;
+    top: 5px;
+    background-color: darkred;
+    clip-path: polygon(15px 0px, 15px 15px, 0px 15px);
+}
+.flappyBird--bird--eye {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    left: 10px;
+    top: 5px;
+}
+.flappyBird--bird--eye::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    top: 2px;
+    left: 4px;
+}
+
+.flappyBird--gameOver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.flappyBird--points {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color:cornflowerblue;
+    border-radius: 50%;
+    color: white;
+}
+
+.flappyBird--gameOver.invisible {
+    display: none;
+}
+
+.flappyBird--cloud {
+    background-color: lightskyblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .7;
+}
+.flappyBird--cloud::before {
+    content: '';
+    background-color: lightskyblue;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: -20px;
+}
+.flappyBird--cloud::after {
+    content: '';
+    background-color: lightskyblue;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: -15px;
+}
+
+.flappyBird--cloud.first {
+    top: 25%;
+    left: calc(100% + 100px);
+    --speed: 1.7;
+}
+.flappyBird--cloud.second {
+    top: 50%;
+    scale: .8;
+    left: calc(100% + 400px);
+    --speed: 2;
+}
+.flappyBird--cloud.third {
+    top: 60%;
+    scale: .6;
+    left: calc(100% + 800px);
+    --speed: 2.3;
+}
