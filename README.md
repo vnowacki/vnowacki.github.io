@@ -6,10 +6,6 @@ Hello World!
 
 The purpose of this repo is to present my latest projects that I've created for work, study and just for fun.
 
-## Where are the source files?
-
-On my disk.
-
 ## What projects are published here?
 
 - Exercises made for students.
