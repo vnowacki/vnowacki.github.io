@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-color: plum;
+    align-items: center;
+    justify-content: center;
+}
+.memoryGame {
+    position: relative;
+}
+.game-board {
+    margin:30px auto;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 5px;
+    gap: 10px;
+    padding: 1rem;
+    background-color: rgba(255,255,255,.3);
+}
+
+.game-tile {
+    cursor: pointer;
+    background-color:mediumpurple;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    transition: 0.4s background-color, 0.4s box-shadow;
+}
+
+.game-tile:hover {
+    background-color:#F7C11A;
+}
+
+.game-score {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.game-start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 20em;
+    text-align: center;
+    padding: 1.3em 3em;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-decoration: none;
+    margin: 2em auto;
+    background-color: blueviolet;
+    border-radius: 3em;
+    line-height: 1.1em;
+    text-shadow: none;
+    transition: 0.5s background-color, 0.5s box-shadow;
+    border:0;
+    cursor: pointer;
+}
