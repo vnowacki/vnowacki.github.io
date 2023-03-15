@@ -2,11 +2,11 @@
 
 Hello World!
 
-## What is the goal?
+## The goal
 
 The purpose of this repo is to present my latest projects that I've created for work, study and just for fun.
 
-## What projects are published here?
+## Projects in the repository
 
 - Exercises made for students.
 - Some work stuff.
