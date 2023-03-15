@@ -40,3 +40,4 @@ Projects are held in subdirectories listed below.
 - [FlappyBird Game](https://vnowacki.github.io/flappyBird) - HTML, CSS, Vanilla JS
 - [Memory Game](https://vnowacki.github.io/memoryGame) - HTML, CSS, Vanilla JS
 - [Pong Game](https://vnowacki.github.io/pongGame) - HTML, CSS, Vanilla JS
+- [Sliding Puzzle](https://vnowacki.github.io/slidingPuzzle) - HTML, CSS, Vanilla JS
