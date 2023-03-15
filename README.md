@@ -39,3 +39,4 @@ Projects are held in subdirectories listed below.
 - [Dino Game](https://vnowacki.github.io/dinoGame) - HTML, CSS, Vanilla JS
 - [FlappyBird Game](https://vnowacki.github.io/flappyBird) - HTML, CSS, Vanilla JS
 - [Memory Game](https://vnowacki.github.io/memoryGame) - HTML, CSS, Vanilla JS
+- [Pong Game](https://vnowacki.github.io/pongGame) - HTML, CSS, Vanilla JS
