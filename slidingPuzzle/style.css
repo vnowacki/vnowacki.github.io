@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightcoral;
+}
+
+button {
+    margin: 20px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color:brown;
+    cursor: pointer;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: brown;
+    color:darksalmon;
+}
+
+h1 {
+    font-size: 50px;
+    color:brown;
+    margin: 20px;
+}
+
+#gameBoard {
+    width: 600px;
+    height: 600px;
+    border: 1px solid brown;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#gameBoard .tile {
+    font-size: 30px;
+    color: transparent;
+    border: 0.1px dotted brown;
+    position: absolute;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+#gameBoard .tile::selection {
+    background: transparent;
+}
+
+#winInfo {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 1000;
+    background-color:indianred;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.4s ease-in;
+    visibility: hidden;
+}
+
+#winInfo p {
+    font-size: 60px;
+    font-weight: 700;
+}
