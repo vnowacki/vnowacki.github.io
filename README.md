@@ -34,3 +34,5 @@ Projects are held in subdirectories listed below.
 - [Product Rate Modal](https://vnowacki.github.io/productratemodal) - HTML, SCSS, Vanilla JS
 - [Pay Form](https://vnowacki.github.io/payform) - HTML, SCSS, Vanilla JS
 - [Nike Order Summary](https://vnowacki.github.io/nikeordersummary) - HTML, SCSS, Vanilla JS, JSON
+- [Calendar App](https://vnowacki.github.io/calendarApp) - HTML, CSS, Vanilla JS
+
