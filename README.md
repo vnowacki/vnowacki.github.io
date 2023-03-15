@@ -44,3 +44,4 @@ Projects are held in subdirectories listed below.
 - [Snake Game](https://vnowacki.github.io/snakeGame) - HTML, CSS, Vanilla JS
 - [Tic Tac Toe](https://vnowacki.github.io/tictactoeGame) - HTML, CSS, Vanilla JS
 - [Oknodrewal](http://www.oknodrewal.pl) - HTML, CSS, JQuery
+- [PPP Brzesko](http://pppbrzesko.pl) - Wordpress
