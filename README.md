@@ -11,7 +11,7 @@ The purpose of this repo is to present my latest projects that I've created for 
 - Exercises made for students.
 - Some work stuff.
 - INVO Academy Challenges.
-- The rest of which I am proud.
+- The rest of which I'm proud.
 
 ## Table of contents
 
