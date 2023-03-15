@@ -41,3 +41,5 @@ Projects are held in subdirectories listed below.
 - [Memory Game](https://vnowacki.github.io/memoryGame) - HTML, CSS, Vanilla JS
 - [Pong Game](https://vnowacki.github.io/pongGame) - HTML, CSS, Vanilla JS
 - [Sliding Puzzle](https://vnowacki.github.io/slidingPuzzle) - HTML, CSS, Vanilla JS
+- [Snake Game](https://vnowacki.github.io/snakeGame) - HTML, CSS, Vanilla JS
+- [Tic Tac Toe](https://vnowacki.github.io/tictactoeGame) - HTML, CSS, Vanilla JS
