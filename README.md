@@ -43,3 +43,4 @@ Projects are held in subdirectories listed below.
 - [Sliding Puzzle](https://vnowacki.github.io/slidingPuzzle) - HTML, CSS, Vanilla JS
 - [Snake Game](https://vnowacki.github.io/snakeGame) - HTML, CSS, Vanilla JS
 - [Tic Tac Toe](https://vnowacki.github.io/tictactoeGame) - HTML, CSS, Vanilla JS
+- [Oknodrewal](http://www.oknodrewal.pl) - HTML, CSS, JQuery
