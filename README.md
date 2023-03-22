@@ -22,7 +22,7 @@ Some of them are approved by INVO Academy [here](https://platform.invo.academy/p
 - [School Page](https://zstib.edu.pl) - HTML, CSS, JQuery, Bootstrap, PHP, SQL
 - [E-Learning Platform](https://zstib.edu.pl/elearning) - HTML, CSS, JQuery, Bootstrap, PHP, SQL
 - [Spotify Playlist](https://vnowacki.github.io/spotifyplaylist) - HTML, SCSS, Vanilla JS, JSON
-- [Address Form](https://vnowacki.github.io/addressform) - HTML, CSS, Vanilla JS, PHP, SQL
+- [Address Form](https://vnowacki.000webhostapp.com/addressform) - HTML, CSS, Vanilla JS, PHP, SQL
 - [FAQ Section](https://vnowacki.github.io/faqsection) - HTML, SCSS, Vanilla JS
 - [AI Sections](https://vnowacki.github.io/aisections) - HTML, SCSS
 - [Order Summary](https://vnowacki.github.io/ordersummary) - HTML, SCSS
