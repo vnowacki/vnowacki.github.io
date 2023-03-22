@@ -1,0 +1,136 @@
+.form-component {
+    margin: 0;
+    padding: 24px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form-component .form-component__heading {
+    height: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.form-component .form-component__heading svg {
+    width: 36px;
+    height: 36px;
+    fill: var(--color-body);
+}
+.form-component .form-component__select {
+    width: 100%;
+    position: relative;
+}
+.form-component .form-component__select-input {
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--rounding-controls);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--color-white);
+    background-color: var(--color-background);
+    outline: none;
+    width: 100%;
+    height: 64px;
+    padding: 0 24px;
+    transition: all .3s;
+}
+.form-component .form-component__select-input:not(:placeholder-shown) {
+    padding-top: 22px;
+}
+.form-component .form-component__select-input:not(:placeholder-shown) ~ .form-component__select-label {
+    top: 8px;
+    font-size: 12px;
+}
+.form-component .form-component__select-input:disabled {
+    background-color: var(--color-stroke);
+    border-color: var(--color-stroke-light);
+}
+.form-component .form-component__select-input:focus {
+    border-color: var(--color-primary);
+}
+.form-component .form-component__select-label {
+    position: absolute;
+    color: var(--color-body);
+    font-size: 16px;
+    line-height: 20px;
+    left: 24px;
+    top: 22px;
+    transition: all .3s;
+    pointer-events: none;
+}
+.form-component .form-component__select-list {
+    width: 100%;
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--rounding-controls);
+    background-color: var(--color-background);
+    position: absolute;
+    top: 72px;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 100;
+}
+.form-component .form-component__select-item {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 24px;
+    color: var(--color-body);
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+}
+.form-component .form-component__select-item:hover {
+    background-color: var(--color-box);
+}
+.form-component .form-component__button {
+    border: none;
+    border-radius: var(--rounding-controls);
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    font-size: 18px;
+    font-weight: 600;
+    gap: 8px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.form-component .form-component__button svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--color-background);
+    transform: rotate(90deg);
+}
+.form-component .form-component__button:hover {
+    background-color: var(--color-white);
+}
+.form-component .form-component__button:disabled {
+    pointer-events: none;
+    background-color: rgba(0,0,0,.1);
+    color: var(--color-stroke);
+}
+.form-component .form-component__button:disabled svg {
+    fill: var(--color-stroke);
+}
+
+@media screen and (min-width: 548px) {
+    .form-component {
+        border-radius: var(--rounding-box);
+        background-color: var(--color-box);
+        margin: 24px;
+        width: 500px;
+        flex-shrink: 0;
+        box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .2);
+    }
+}
